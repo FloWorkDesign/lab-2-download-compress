@@ -1,5 +1,4 @@
 
-
 **Exercise 1: Downloading a File**
 
 Open your terminal emulator.
