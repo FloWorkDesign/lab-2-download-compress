@@ -3,11 +3,9 @@
 
 Open your terminal emulator.
 
-Use `curl` to download a sample file. For example:
-   ```bash
-   curl -O https://example.com/samplefile.tar.gz
-   ```
-The sample file is: https://getsamplefiles.com/download/tar/sample-3.tar
+Use `curl` to download a sample file.
+  
+curl https://www.nebraskadebtbankruptcyblog.com/2013/06/home-loan-modifications-why-allowing-the-fox-to-guard-the-hen-house-is-bad-policy/Fox.jpg
 
 **Exercise 2: Checking File Existence**
 
@@ -43,9 +41,5 @@ Use `curl` to download a file and display a progress bar while downloading.
 **Exercise 9: Resuming an Interrupted Download**
 
 10. If a download is interrupted, how can you resume it using `curl`?
-
-    a) Use the `-r` option followed by the range.
-    
-    b) Use the `-R` option.
     
     c) Use the `-C -` option.
