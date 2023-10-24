@@ -6,23 +6,23 @@ Use `curl` to download a sample file. For example:
    ```bash
    curl -O https://example.com/samplefile.tar.gz
    ```
-The sample file is: https://i.pinimg.com/originals/fc/f2/6d/fcf26dea78633a078c53478e25b00914.jpg
+The sample file is: file.tar.gz
 
 % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100  1256  100  1256    0     0   4964      0 --:--:-- --:--:-- --:--:--  4944
 
 **Exercise 2: Checking File Existence**
 
 Check if the file `samplefile.tar.gz` was downloaded successfully?
 
-ls
+ls -l
 
 **Exercise 3: Display File Content**
 
 Display the content of the downloaded `samplefile.tar.gz` without extracting it?
 
-cat
+tar -tf
 
 **Exercise 4: Downloading to a Specific Directory**
 
@@ -34,6 +34,7 @@ curl -O mydir/file.tar.gz
 
 Download the above file, extract it using `tar`, and save it in a single directory in a single `curl` command.
 
+curl -O file.tar.gz then tar -xvf file.tar.gz then curl -O mydir/file.tar.gz
 
 **Exercise 6: Uncompressing a File**
 
@@ -45,7 +46,7 @@ tar -xvf
 
 Use `curl` to download a file and display a progress bar while downloading.
 
-curl # -O
+curl "${UPLOAD_URL}" --progress-bar
 
 **Exercise 9: Resuming an Interrupted Download**
 
