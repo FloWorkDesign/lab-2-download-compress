@@ -5,12 +5,13 @@ Open your terminal emulator.
 
 Use `curl` to download a sample file.
   
-curl https://www.nebraskadebtbankruptcyblog.com/2013/06/home-loan-modifications-why-allowing-the-fox-to-guard-the-hen-house-is-bad-policy/Fox.jpg
+curl -O https://www.nebraskadebtbankruptcyblog.com/2013/06/home-loan-modifications-why-allowing-the-fox-to-guard-the-hen-house-is-bad-policy/Fox.jpg
 
 **Exercise 2: Checking File Existence**
 
 Check if the file `samplefile.tar.gz` was downloaded successfully?
 
+ls 
 
 **Exercise 3: Display File Content**
 
