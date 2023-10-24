@@ -1,5 +1,3 @@
-
-
 **Exercise 1: Downloading a File**
 
 Open your terminal emulator.
@@ -8,17 +6,23 @@ Use `curl` to download a sample file. For example:
    ```bash
    curl -O https://example.com/samplefile.tar.gz
    ```
-The sample file is: https://getsamplefiles.com/download/tar/sample-3.tar
+The sample file is: https://i.pinimg.com/originals/fc/f2/6d/fcf26dea78633a078c53478e25b00914.jpg
+
+% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
 
 **Exercise 2: Checking File Existence**
 
 Check if the file `samplefile.tar.gz` was downloaded successfully?
 
+ls
 
 **Exercise 3: Display File Content**
 
 Display the content of the downloaded `samplefile.tar.gz` without extracting it?
 
+cat
 
 **Exercise 4: Downloading to a Specific Directory**
 
