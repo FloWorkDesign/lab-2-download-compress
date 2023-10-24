@@ -28,6 +28,7 @@ cat
 
 Download the above file using `curl` and save it to a specific directory, such as `/path/to/directory`. Any directory would do.
 
+curl -O mydir/file.tar.gz
 
 **Exercise 5: Downloading and Uncompressing Simultaneously**
 
@@ -38,12 +39,13 @@ Download the above file, extract it using `tar`, and save it in a single directo
 
 Extract the file using the tar command.
 
+tar -xvf
 
 **Exercise 7: Checking File Compression Type**
 
-
 Use `curl` to download a file and display a progress bar while downloading.
 
+curl # -O
 
 **Exercise 9: Resuming an Interrupted Download**
 
